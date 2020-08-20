@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sound Pattern</title>
+
+  <!-- favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Heading -->
+  <h1 id="level-title">Press A Key to Start</h1>
+
+  <div class="container-fluid">
+    <div class="row">
+<!-- Green Button -->
+      <div type="button" id="green" class="btn green"></div>
+      <!-- Red Button -->
+      <div type="button" id="red" class="btn red"></div>
+    </div>
+    <div class="row">
+      <!-- Yellow Button -->
+      <div type="button" id="yellow" class="btn yellow"></div>
+      <!-- Blue Button -->
+      <div type="button" id="blue" class="btn blue"></div>
+    </div>
+  </div>
+
+  
+<!-- Hidden Rules -->
+<div class="rules">
+  <h2>RULES</h2>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">➡ Start the game by pressing any key.</li>
+    <li class="list-group-item">➡ Each color represents a sound.</li>
+    <li class="list-group-item">➡ At each level a new sound will be added to the sequence.</li>
+    <li class="list-group-item">➡ You are required to remember the sequence.</li>
+    <li class="list-group-item">➡ At each level play the entire sequence from the level 1 till current level.</li>
+    <li class="list-group-item">➡ If the user messes up the sequence, then the game ends..</li>
+  </ul>
+</div>
+
+</body>
+<footer>
+  <!-- Fotter Content -->
+  <h3 class="foot">Follow the Sound 🔊</h3>
+  <p>Click here <span class="list">📄</span> for the rules.</p>
+
+  <!-- index.js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</footer>
+
+</html>
